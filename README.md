@@ -13,7 +13,13 @@ npx skills add lightsound/skills
 Install a specific skill:
 
 ```bash
-npx skills add lightsound/skills/git-commit
+npx skills add lightsound/skills --skill git-commit
+```
+
+List available skills without installing:
+
+```bash
+npx skills add lightsound/skills --list
 ```
 
 ## Skills
@@ -21,6 +27,10 @@ npx skills add lightsound/skills/git-commit
 ### git-commit
 
 Analyze diffs, split into logical commits, and create Conventional Commit messages.
+
+```bash
+npx skills add lightsound/skills --skill git-commit
+```
 
 **Use when:** You want to commit changes, stage files, or split work into multiple well-scoped commits.
 
