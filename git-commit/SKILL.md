@@ -2,6 +2,7 @@
 name: git-commit
 description: "Analyze diffs, split into logical commits, and create Conventional Commit messages. Use when the user asks to commit, stage changes, or split work into multiple commits."
 allowed-tools: Bash
+disable-model-invocation: true
 ---
 
 # Git Commit
